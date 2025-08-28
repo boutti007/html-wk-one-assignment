@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Metadata -->
+  <title>Sample Semantic HTML5 Page</title>
+  <meta name="description" content="A sample HTML5 semantic structure demonstrating accessibility, SEO, and logical headings.">
+  <meta name="keywords" content="HTML5, semantic, accessibility, SEO, example">
+  <meta name="author" content="Geoffrey Ndungi Kimani">
+
+  <!-- Accessibility Enhancement -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Semantic HTML5 Page</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about" title="Learn about us">About</a></li>
+        <li><a href="#services" title="See our services">Services</a></li>
+        <li><a href="#contact" title="Get in touch">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>
+          This page demonstrates the use of semantic HTML5 elements, accessibility features, and SEO-friendly content.
+        </p>
+      </section>
+
+      <section id="services">
+        <h2>Our Services</h2>
+        <h3>Web Development</h3>
+        <p>
+          We build responsive, accessible, and SEO-optimized websites.
+        </p>
+        <h3>AI Integration</h3>
+        <p>
+          Leveraging AI technologies to enhance user experience and productivity.
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post" aria-label="Contact form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required aria-required="true">
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required aria-required="true">
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required aria-required="true"></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </article>
+  </main>
+
+  <aside>
+    <h2>Quick Links</h2>
+    <ul>
+      <li><a href="#about">About Section</a></li>
+      <li><a href="#services">Services Section</a></li>
+      <li><a href="#contact">Contact Section</a></li>
+    </ul>
+  </aside>
+
+  <footer>
+    <p>&copy; 2025 Geoffrey Ndungi Kimani. All rights reserved.</p>
+  </footer>
+</body>
+</html>
